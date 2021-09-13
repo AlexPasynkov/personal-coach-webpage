@@ -1,4 +1,19 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'block/header';
+@import 'block/title';
+@import 'block/sidepanel';
+
+
+*{
+    box-sizing: border-box;
+
+}
+
 .container {
-    width: 1140px;
+    width: 1350px;
     margin: 0 auto;
+}
+
+body {
+    font-family: 'Glory', sans-serif;
 }
